@@ -24,4 +24,4 @@ mongoose.connect('mongodb+srv://Test:testtest@cluster0.7y5gc.mongodb.net/myFirst
     })
 
 
-app.listen(3000);
+app.listen(process.env.PORT || 3000);
